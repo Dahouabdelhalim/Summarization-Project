@@ -17,18 +17,4 @@ T5 is an encoder-decoder model pre-trained on a multi-task mixture of unsupervis
 
 ## Dataset 
 
->DatasetDict({
-    >train: Dataset({
-        >features: ['document', 'summary'],
-       > num_rows: 50000
-    >})
-    >test: Dataset({
-        features: ['document', 'summary'],
-        num_rows: 5000
-    })
-    val: Dataset({
-        features: ['document', 'summary'],
-        num_rows: 5000
-    })
-})
-
+> 50000 documents in the training part, 5000 documents in the validation and test parts.
