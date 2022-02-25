@@ -14,3 +14,21 @@ T5 is an encoder-decoder model pre-trained on a multi-task mixture of unsupervis
 ## Libraries
 
 > For this study, we used the python language and all the libraries, are mentioned in the ipynb script.
+
+## Dataset 
+
+DatasetDict({
+    train: Dataset({
+        features: ['document', 'summary'],
+        num_rows: 50000
+    })
+    test: Dataset({
+        features: ['document', 'summary'],
+        num_rows: 5000
+    })
+    val: Dataset({
+        features: ['document', 'summary'],
+        num_rows: 5000
+    })
+})
+
