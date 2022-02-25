@@ -18,3 +18,4 @@ T5 is an encoder-decoder model pre-trained on a multi-task mixture of unsupervis
 ## Dataset 
 
 > 50000 documents in the training part, 5000 documents in the validation and test parts.
+> https://drive.google.com/drive/folders/1CP36015srVw9Q0-1kTwOfAuo4z2t2aKh?usp=sharing
